@@ -4,7 +4,7 @@ function Child(props)
 {
     return (
     <div>
-        <h1>Date Passed from parent: {props.DatePassed}</h1>
+        <h1>Child Component - Date Passed from parent : {props.DatePassed}</h1>
     </div>
     );
 }
